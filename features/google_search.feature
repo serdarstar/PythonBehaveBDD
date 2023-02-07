@@ -3,7 +3,7 @@ Feature: Search feature
 
   Background:
     Given I navigate to google.com
-
+@regression
   Scenario: Validating the search feature
     When I validate the page title
     Then I enter the text as "Hello Selenium"
